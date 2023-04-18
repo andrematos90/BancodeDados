@@ -1,0 +1,52 @@
+O MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS)
+que utiliza a linguagem SQL (Structured Query Language) para acessar, gerenciar e
+manipular dados armazenados em tabelas relacionais.
+
+O funcionamento básico do MySQL envolve as seguintes etapas:
+
+Criação do banco de dados: O primeiro passo é criar um banco de dados no MySQL. 
+Isso envolve a definição de uma estrutura básica para o banco de dados, como a 
+criação de tabelas, definição de campos, chaves primárias e chaves estrangeiras.
+
+Inserção de dados: Com a estrutura do banco de dados definida, é possível inserir 
+dados nas tabelas utilizando a linguagem SQL. Os dados são organizados em linhas
+e colunas, e as operações básicas de inserção, atualização e exclusão são
+realizadas por meio de comandos SQL.
+
+Consulta de dados: Uma vez que os dados estão inseridos no banco de dados, 
+é possível realizar consultas para recuperar informações específicas.
+As consultas SQL podem ser utilizadas para filtrar e ordenar dados,
+realizar cálculos, agrupar informações, entre outras operações.
+
+Gerenciamento de usuários e permissões: O MySQL possui um sistema de gerenciamento de
+usuários e permissões que permite definir quem pode acessar o banco de dados, quais
+operações podem ser realizadas e em quais tabelas.
+
+Otimização e ajuste de desempenho: À medida que o banco de dados cresce e se torna 
+mais complexo, é necessário realizar ajustes para garantir um desempenho adequado. 
+Isso pode envolver a otimização de consultas, a criação de índices, a configuração 
+de caches, entre outras técnicas.
+
+O MySQL é um sistema robusto e confiável que é amplamente utilizado em sistemas de 
+missão crítica, como sites, aplicativos empresariais e sistemas de gerenciamento de
+conteúdo. Ele oferece recursos avançados de segurança, desempenho e escalabilidade,
+além de ser compatível com uma ampla variedade de plataformas e linguagens de 
+programação.
+
+
+----------------------------------- AULA BONIEKI ----------------------------------
+
+
+software >>>> porta padrão do MySQL: 3306
+
+-165.122.111.11:3306
+
+
+C - Creat - criar/inserrir dados
+R - Read - ler/pegar dados do banco de dados
+U - Update - atualizar/modificar os dados
+D - Delete - deletar dados
+
+cada comando é enviado para o endereço de ip que faz a ligação com software gerenciador,
+de banco de dados, que processa e retorna o resultado
+

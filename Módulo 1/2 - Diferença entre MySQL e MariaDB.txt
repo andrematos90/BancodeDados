@@ -1,0 +1,27 @@
+O MariaDB é um fork do MySQL, ou seja, uma ramificação do código-fonte original do
+MySQL, criada por seus desenvolvedores originais após a aquisição do MySQL pela Oracle
+Corporation. O MariaDB surgiu como uma alternativa de código aberto ao MySQL, 
+oferecendo recursos e melhorias que não estavam disponíveis na versão do MySQL 
+mantida pela Oracle.
+
+Embora o MariaDB seja uma ramificação do MySQL, ele possui algumas diferenças em 
+relação ao MySQL. Algumas delas são:
+
+Licença: O MariaDB é distribuído sob a licença GPL, enquanto o MySQL é distribuído 
+sob duas licenças diferentes: a versão comunitária sob a GPL e a versão empresarial 
+sob uma licença proprietária.
+
+Recursos: O MariaDB oferece alguns recursos adicionais que não estão disponíveis no 
+MySQL, como suporte para mais tipos de armazenamento de dados, melhorias na replicação, entre outros.
+
+Compatibilidade: Embora o MariaDB seja compatível com o MySQL em grande parte, 
+há algumas diferenças na sintaxe SQL e nas funções suportadas, o que pode afetar
+a portabilidade de aplicativos desenvolvidos para o MySQL.
+
+Desenvolvimento: O MariaDB tem um processo de desenvolvimento mais aberto, com a 
+comunidade sendo mais envolvida no processo de desenvolvimento e tomada de decisões.
+
+Em resumo, o MariaDB é uma alternativa ao MySQL que oferece algumas melhorias
+e recursos adicionais, enquanto ainda mantém uma grande compatibilidade com o MySQL.
+A escolha entre os dois depende das necessidades e requisitos específicos de cada 
+projeto.

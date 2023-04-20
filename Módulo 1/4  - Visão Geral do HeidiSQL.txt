@@ -1,0 +1,9 @@
+HeidiSQL é um software livre e gratuito de gerenciamento de banco de dados para os 
+sistemas operacionais Windows, Linux e Mac OS X. Ele permite que os usuários visualizem
+e gerenciem bancos de dados MySQL, MariaDB, Microsoft SQL Server e PostgreSQL usando 
+uma interface gráfica do usuário (GUI). Com o HeidiSQL, os usuários podem criar, 
+editar, excluir e visualizar dados em tabelas, bem como executar consultas SQL, 
+criar e modificar objetos de banco de dados, entre outras funcionalidades de 
+gerenciamento de banco de dados. É uma ferramenta útil para desenvolvedores de
+software, administradores de banco de dados e outros profissionais de tecnologia
+que precisam gerenciar dados em um ambiente de banco de dados.

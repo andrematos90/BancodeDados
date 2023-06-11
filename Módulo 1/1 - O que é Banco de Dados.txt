@@ -13,3 +13,23 @@ Existem diferentes tipos de banco de dados, como bancos de dados relacionais (SQ
 bancos de dados NoSQL, bancos de dados em memória, bancos de dados em nuvem, 
 entre outros. Cada tipo tem suas características específicas e é mais adequado para
 diferentes tipos de aplicação e necessidades.
+
+
+Principais software de gerenciamento de banco de dados
+
+Oracle Database
+Microsoft SQL Server
+MySQL
+PostgreSQL
+IBM DB2
+SQLite
+MariaDB
+Sybase
+Informix
+Teradata
+Microsoft Access
+Firebird
+SAP HANA
+Amazon RDS (Relational Database Service)
+Google Cloud Spanner
+

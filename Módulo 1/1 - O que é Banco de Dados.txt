@@ -14,8 +14,27 @@ bancos de dados NoSQL, bancos de dados em memória, bancos de dados em nuvem,
 entre outros. Cada tipo tem suas características específicas e é mais adequado para
 diferentes tipos de aplicação e necessidades.
 
+O que é SQL?
 
-Principais software de gerenciamento de banco de dados
+SQL significa Structured Query Language (Linguagem de Consulta Estruturada). É uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Foi desenvolvida originalmente na década de 1970 e tornou-se uma linguagem padrão para bancos de dados relacionais.
+
+O SQL permite que os usuários criem, modifiquem e consultem bancos de dados relacionais. Com ele, é possível realizar uma variedade de operações, como criação de tabelas, inserção de dados, consulta de informações, atualização de registros e exclusão de dados.
+
+A linguagem SQL é baseada em comandos, que são enviados a um sistema de gerenciamento de banco de dados (SGBD) para executar ações específicas. Alguns dos comandos SQL mais comuns são:
+
+SELECT: usado para consultar dados em um banco de dados.
+INSERT: usado para inserir novos dados em uma tabela.
+UPDATE: usado para atualizar os dados existentes em uma tabela.
+DELETE: usado para excluir dados de uma tabela.
+CREATE: usado para criar uma nova tabela, banco de dados ou outros objetos.
+ALTER: usado para modificar a estrutura de uma tabela existente.
+DROP: usado para excluir uma tabela, banco de dados ou outros objetos.
+Esses são apenas alguns exemplos de comandos SQL. A linguagem SQL é muito versátil e possui uma sintaxe padrão que é amplamente adotada pelos sistemas de gerenciamento de banco de dados relacionais, como MySQL, Oracle, SQL Server, PostgreSQL, entre outros.
+
+Com o SQL, é possível realizar consultas complexas, realizar junções entre tabelas, aplicar filtros, ordenar resultados, agrupar dados e realizar muitas outras operações para extrair informações úteis dos bancos de dados.
+
+
+Principais software de gerenciamento de banco de dados (SGDB)
 
 Oracle Database
 Microsoft SQL Server

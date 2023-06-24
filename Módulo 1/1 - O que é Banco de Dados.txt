@@ -52,3 +52,5 @@ SAP HANA
 Amazon RDS (Relational Database Service)
 Google Cloud Spanner
 
+
+Banco de dados Relacional

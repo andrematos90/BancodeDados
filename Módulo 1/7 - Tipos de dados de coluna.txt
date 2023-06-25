@@ -33,7 +33,7 @@ JSON: formato de dados para armazenar documentos JSON.
 BOOLEAN: valor booleano (verdadeiro ou falso).
 Esses são apenas alguns exemplos dos tipos de dados suportados pelo MySQL. Cada tipo de dado tem suas características e usos específicos, e é importante escolher o tipo correto para armazenar os dados de forma eficiente e precisa
 
-Tipo mais usados: TINYINT, INT, FLOAT, VARCHAR, TEXT, DATE, DATETIME, TIMESTAMP
+Tipo mais usados: 
 
 
 

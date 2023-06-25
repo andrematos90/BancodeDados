@@ -1,0 +1,65 @@
+O MySQL é um sistema de gerenciamento de banco de dados relacional (SGBDR) que oferece suporte a uma variedade de tipos de dados para armazenar e manipular diferentes tipos de informações. Alguns dos tipos de dados mais comuns que o MySQL pode ter incluem:
+
+Números Inteiros:
+
+TINYINT: inteiro de 1 byte, com faixa de -128 a 127 (signed) ou 0 a 255 (unsigned).
+SMALLINT: inteiro de 2 bytes, com faixa de -32.768 a 32.767 (signed) ou 0 a 65.535 (unsigned).
+MEDIUMINT: inteiro de 3 bytes, com faixa de -8.388.608 a 8.388.607 (signed) ou 0 a 16.777.215 (unsigned).
+INT ou INTEGER: inteiro de 4 bytes, com faixa de -2.147.483.648 a 2.147.483.647 (signed) ou 0 a 4.294.967.295 (unsigned).
+BIGINT: inteiro de 8 bytes, com faixa de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807 (signed) ou 0 a 18.446.744.073.709.551.615 (unsigned).
+Números de Ponto Flutuante:
+
+FLOAT: número de ponto flutuante de precisão simples, com até 7 dígitos decimais.
+DOUBLE: número de ponto flutuante de precisão dupla, com até 15 dígitos decimais.
+Números Decimais:
+
+DECIMAL ou NUMERIC: número decimal de precisão fixa, com uma precisão definida pelo usuário.
+Texto e Strings:
+
+CHAR: uma sequência de caracteres fixa com tamanho definido.
+VARCHAR: uma sequência de caracteres variável com tamanho máximo definido.
+TEXT: texto de comprimento variável com tamanho máximo maior que VARCHAR.
+ENUM: um conjunto de valores permitidos especificados durante a criação da tabela.
+Data e Hora:
+
+DATE: data no formato 'YYYY-MM-DD'.
+TIME: hora no formato 'HH:MM:SS'.
+DATETIME: combinação de data e hora no formato 'YYYY-MM-DD HH:MM:SS'.
+TIMESTAMP: valor de data e hora, geralmente usado para registrar o momento da inserção ou atualização de um registro.
+Outros Tipos:
+
+BLOB: dados binários de comprimento variável.
+JSON: formato de dados para armazenar documentos JSON.
+BOOLEAN: valor booleano (verdadeiro ou falso).
+Esses são apenas alguns exemplos dos tipos de dados suportados pelo MySQL. Cada tipo de dado tem suas características e usos específicos, e é importante escolher o tipo correto para armazenar os dados de forma eficiente e precisa
+
+Tipo mais usados: TINYINT, INT, FLOAT, VARCHAR, TEXT, DATE, DATETIME, TIMESTAMP
+
+
+
+Chave Primária e Chave estrangeira
+
+
+Chave Primária:
+Uma chave primária é um atributo ou um conjunto de atributos que identifica exclusivamente cada registro em uma tabela de um banco de dados. A chave primária garante a unicidade dos registros e é usada para indexar e acessar de forma eficiente os dados em uma tabela. Cada tabela em um banco de dados relacional deve ter uma chave primária.
+
+Características de uma chave primária:
+
+Unicidade: Cada valor na chave primária deve ser único, ou seja, não pode haver duplicatas.
+Não nulidade: A chave primária não pode conter valores nulos, pois deve identificar exclusivamente cada registro.
+Imutabilidade: A chave primária geralmente não deve ser alterada após a criação do registro.
+Um exemplo de chave primária seria uma tabela "Clientes" com um campo "ID" que é único para cada cliente. Nesse caso, o campo "ID" seria a chave primária da tabela "Clientes".
+
+Chave Estrangeira:
+Uma chave estrangeira é um atributo ou um conjunto de atributos em uma tabela que estabelece uma relação com a chave primária de outra tabela. A chave estrangeira representa a dependência entre as tabelas e é usada para conectar registros relacionados em diferentes tabelas.
+
+Ao definir uma chave estrangeira, você estabelece uma restrição referencial entre as tabelas, garantindo que os valores da chave estrangeira correspondam aos valores existentes na chave primária da tabela relacionada.
+
+Características de uma chave estrangeira:
+
+Relacionamento: A chave estrangeira representa uma relação entre as tabelas, geralmente entre a tabela em que está definida e a tabela que possui a chave primária correspondente.
+Integridade referencial: A chave estrangeira garante que os dados relacionados estejam consistentes, mantendo a integridade referencial entre as tabelas.
+Restrição: A chave estrangeira impõe uma restrição para que os valores da chave estrangeira correspondam aos valores existentes na tabela relacionada.
+Um exemplo seria uma tabela "Pedidos" que possui um campo "ClienteID" como chave estrangeira, relacionado com a chave primária da tabela "Clientes". Isso permite estabelecer a relação entre um pedido e o cliente associado através do campo "ClienteID".
+
+As chaves primárias e estrangeiras são fundamentais para estabelecer relacionamentos e garantir a integridade dos dados em bancos de dados relacionais. Esses conceitos permitem que você associe informações de diferentes tabelas e consulte dados relacionados com eficiência.
